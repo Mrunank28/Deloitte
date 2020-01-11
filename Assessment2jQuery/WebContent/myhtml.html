@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>JQuery HTML</title>
+
+<link rel="stylesheet" type="text/css" href="mystyle.css" />
+<script>
+	function dispName() {
+		var tf = document.getElementById("demo").innerHTML = ttext.value;
+		return tf;
+	}
+</script>
+</head>
+<body onload="loadName()">
+	<br>Enter Text:
+	<input type="text" name="ttext" placeholder="text" />
+	<p id="demo"></p>
+	<input type="button" id="tTab" value="Click" onclick="dispName()" />
+</body>
+</html>
